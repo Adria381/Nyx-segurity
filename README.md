@@ -33,7 +33,7 @@ nyx-security/
 
 1. Clona este repositorio:
    ```
-   git clone https://github.com/tu-usuario/nyx-security.git
+   git clone https:https://github.com/Adria381/Nyx-segurity
    cd nyx-security
    ```
 
