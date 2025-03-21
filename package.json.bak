@@ -1,0 +1,46 @@
+{
+  "name": "nyx-security",
+  "version": "1.0.0",
+  "description": "Sistema de seguridad para manejo, división y almacenamiento seguro de tokens",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "prepublishOnly": "npm test && npm run lint"
+  },
+  "keywords": [
+    "security",
+    "token",
+    "encryption",
+    "nyx",
+    "token-manager",
+    "crypto"
+  ],
+  "author": "nyxur <nyxstudio@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  },
+  "files": [
+    "index.js",
+    "tokens.js",
+    "utils/**/*",
+    "config/**/*",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "nyx-security",
+  "version": "1.0.0",
+  "description": "Sistema de seguridad para manejo, división y almacenamiento seguro de tokens",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "security",
+    "token",
+    "encryption",
+    "nyx"
+  ],
+  "author": "nyxur",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0"
+  }
+}
